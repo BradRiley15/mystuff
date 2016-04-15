@@ -1,6 +1,7 @@
 # Simple Quadratic Calculator for Ax^2+Bx+C=0
 # Brad Riley
 # 4/17/16
+# Python 3.2.4
 # Prints two solutions to a quadratic in either an integer, simplified fraction, or sort-of-simplified equation.
 import math
 from fractions import Fraction
