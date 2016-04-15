@@ -36,7 +36,7 @@ if negSqrt == False:                            # Won't check if it is an intege
         valuePlus = int(valuePlus * (2*a))      # convert to whole number
         valuePlus = Fraction(valuePlus, (2*a))  # Convert to simplified fraction
     else:
-        valuePlus = int(valuePlus) # Makes it easier to read instead of a #.0
+        valuePlus = int(valuePlus)              # Makes it easier to read instead of a #.0
 if negSqrt2 == False:     
     if valueMinus.is_integer() == False:
         valueMinus = int(valueMinus * (2*a))
